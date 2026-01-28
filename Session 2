@@ -1,0 +1,17 @@
+import numpy as np
+
+a = 1.0
+b = 2.0
+x = a + b
+print(x)
+print(type(x))
+
+c = 3
+d = 4
+y = d - c
+print(y)
+print(type(y))
+
+z = a * c
+print(c)
+print(type(c))
