@@ -11,5 +11,5 @@ print(y)
 print(type(y))
 
 z = a * c
-print(c)
-print(type(c))
+print(z)
+print(type(z))
