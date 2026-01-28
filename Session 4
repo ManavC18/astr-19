@@ -1,0 +1,23 @@
+class Animal:
+	def __init__(self, armlen, leglen, numeye, hastail, isfurry):
+		self.armlen = armlen
+		self.leglen = leglen
+		self.numeye = numeye
+		self.hastail = hastail
+		self.isfurry = isfurry
+
+	def descriptor(self):
+		print("Animal Description:")
+		print(f"Arm Length: {self.armlen}")
+		print(f"Leg Length: {self.leglen}")
+		print(f"Number of eyes: {self.numeye}")
+		print(f"Has a tail: {self.hastail}")
+		print(f"Is furry: {self.isfurry}")
+
+
+def main():
+	myanimal = Animal(armlen = 0.5, leglen = 0.9, numeye = 2, hastail = True, isfurry = True)
+	myanimal.descriptor()
+
+if __name__ == "__main__":
+	main()
