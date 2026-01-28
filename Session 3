@@ -1,0 +1,12 @@
+def f(x):
+	return x**3 + 8
+
+def main():
+	func_call = f(9)
+	print(func_call)
+	if func_call > 27:
+		print('YAY!')
+ 
+
+if __name__ == "__main__":
+	main()
